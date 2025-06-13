@@ -291,10 +291,6 @@ export const NavBar = () => {
               fontWeight="bolder"
               color="white"
             >
-              <a
-              href=""
-                download="Gaurav-Sahu-Resume"
-              >
                 <Button
                   background="none"
                   color="white"
@@ -311,7 +307,6 @@ export const NavBar = () => {
                 >
                   Resume
                 </Button>
-              </a>
             </Box>
           </DrawerBody>
         </DrawerContent>
