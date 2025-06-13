@@ -22,7 +22,7 @@ export const NavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const homeSection = document.getElementById("home");
+      
       const aboutSection = document.getElementById("about");
       const skillsSection = document.getElementById("skills");
       const projectsSection = document.getElementById("projects");
@@ -292,6 +292,7 @@ export const NavBar = () => {
               color="white"
             >
               <a
+              href=""
                 download="Gaurav-Sahu-Resume"
               >
                 <Button

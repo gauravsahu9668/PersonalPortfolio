@@ -100,10 +100,10 @@ export default function Project() {
                       return (
                         <Box>
                           <Flex justifyContent="center">
-                            {(tech?.title == "Express" ||
-                              tech?.title == "Next.js") &&
-                            (mainTheme?.theme.bg == "black" ||
-                              mainTheme?.theme.bg == "#08105B") ? (
+                            {(tech?.title === "Express" ||
+                              tech?.title === "Next.js") &&
+                            (mainTheme?.theme.bg === "black" ||
+                              mainTheme?.theme.bg === "#08105B") ? (
                               tech?.svg({ size: "2.5rem", color: "#757575" })
                             ) : (
                               <img
@@ -123,7 +123,7 @@ export default function Project() {
                 <Box m="15px 0">
                   <Flex justify="space-around">
                     <Box>
-                      <a target="_blank" href={project.gitLink}>
+                      <a target="_blank" rel="noreferrer" href={project.gitLink}>
                         <Button
                           className="project-github-link"
                           background="none"
@@ -138,7 +138,7 @@ export default function Project() {
                       </a>
                     </Box>
                     <Box>
-                      <a target="_blank" href={project.liveLink}>
+                      <a target="_blank" rel="noreferrer" href={project.liveLink}>
                         <Button
                           className="project-deployed-link"
                           background="none"

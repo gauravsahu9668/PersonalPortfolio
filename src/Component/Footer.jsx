@@ -7,9 +7,7 @@ import {
   Grid,
   Heading,
   Input,
-  Spacer,
   Text,
-  Textarea,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { FaUserCircle } from "react-icons/fa";
@@ -169,7 +167,7 @@ export default function Footer() {
                 <MdEmail color="#00796B" size="25px" />
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                <a target="_blank" href="mailto: sahug6194@gmail.com">
+                <a target="_blank" rel="noreferrer" href="mailto: sahug6194@gmail.com">
                   <Text
                     fontSize="sm"
                     color="#00796B"
@@ -188,6 +186,7 @@ export default function Footer() {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/gaurav-sahu-38126327b/"
+                  rel="noreferrer"
                 >
                   <motion.div
                     whileHover={{ scale: 1.1 }}
@@ -201,6 +200,7 @@ export default function Footer() {
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.linkedin.com/in/gaurav-sahu-38126327b/"
                 >
                   <Text
@@ -218,7 +218,7 @@ export default function Footer() {
             {/* github */}
             <Flex mt="25px">
               <Box w="10%">
-                <a target="_blank" href="https://github.com/gauravsahu9668">
+                <a target="_blank" rel="noreferrer" href="https://github.com/gauravsahu9668">
                   <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -229,7 +229,7 @@ export default function Footer() {
                 </a>
               </Box>
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                <a target="_blank" href="https://github.com/gauravsahu9668">
+                <a target="_blank" rel="noreferrer" href="https://github.com/gauravsahu9668">
                   <Text
                     id="contact-github"
                     fontSize="sm"

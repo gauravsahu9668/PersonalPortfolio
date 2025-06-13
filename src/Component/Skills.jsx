@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Heading } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { ThemeContext } from "./ThemeContext";
 import { useContext } from "react";
@@ -83,7 +83,7 @@ export default function Skills() {
                 className="skills-card"
               >
                 <Flex justifyContent="center">
-                  { (skill.title == 'Express' || skill.title == "Next.js") && (mainTheme?.theme.bg=='black' || mainTheme?.theme.bg=="#08105B") ? skill?.svg({size:'4rem',color:'#757575'}) : <img
+                  { (skill.title === 'Express' || skill.title === "Next.js") && (mainTheme?.theme.bg==='black' || mainTheme?.theme.bg==="#08105B") ? skill?.svg({size:'4rem',color:'#757575'}) : <img alt="image"
                     className="skills-card-img"
                     style={{ width: skill.swid,fill:'red' }}
                     src={skill.img}

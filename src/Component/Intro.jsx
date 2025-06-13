@@ -162,6 +162,7 @@ export default function Intro() {
               <Box w="10%">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.linkedin.com/in/gaurav-sahu-38126327b/"
                 >
                   <AiFillLinkedin color="#26A69A" size="25px" />
@@ -173,7 +174,7 @@ export default function Intro() {
           <motion.div variants={item}>
             <Flex mt="25px">
               <Box w="10%">
-                <a target="_blank" href="https://github.com/gauravsahu9668/">
+                <a target="_blank" rel="noreferrer" href="https://github.com/gauravsahu9668/">
                   <AiFillGithub color="#26A69A" size="25px" />
                 </a>
               </Box>
