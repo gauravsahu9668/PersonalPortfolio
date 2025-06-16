@@ -160,7 +160,7 @@ export const NavBar = () => {
                   className="nav-link contact"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1rQbA1Rn39sfYomtvuHc85vSaX02gz1nu/view?usp=sharing"
+                      "https://drive.google.com/file/d/1EwIfLQ24cJ2UGjj7HDedVw6usxGzBRyA/view?usp=drive_link"
                     )
                   }
                   
@@ -301,7 +301,7 @@ export const NavBar = () => {
                   id="resume-button-1"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1rQbA1Rn39sfYomtvuHc85vSaX02gz1nu/view?usp=sharing"
+                      "https://drive.google.com/file/d/1EwIfLQ24cJ2UGjj7HDedVw6usxGzBRyA/view?usp=drive_link"
                     )
                   }
                 >

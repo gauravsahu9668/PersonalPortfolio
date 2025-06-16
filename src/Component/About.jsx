@@ -77,7 +77,7 @@ export default function About() {
               id="resume-button-2"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1rQbA1Rn39sfYomtvuHc85vSaX02gz1nu/view?usp=sharing"
+                  "https://drive.google.com/file/d/1EwIfLQ24cJ2UGjj7HDedVw6usxGzBRyA/view?usp=drive_link"
                 )
               }
             >
